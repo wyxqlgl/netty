@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.protobuf:protobuf-java:3.11.0-rc-1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.0-rc-1/27266e94774ec301a817d4112a30b21e5c7acc0c/protobuf-java-3.11.0-rc-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.0-rc-1/1663c72a634c6a61b2bf1445e166909d00e0032f/protobuf-java-3.11.0-rc-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

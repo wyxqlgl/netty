@@ -2,8 +2,8 @@ syntax="proto2";
 package com.shengsiyuan.protobuf;
 
 option optimize_for=SPEED;
-option java_package="com.myNetty.nettyProtobuf";
-option java_outer_classname="MyDataInfo";
+option java_package="com.myNetty.nettyProtobuf"; //包名
+option java_outer_classname="MyDataInfo"; //类名
 
 message MyMessage{
    enum DataType{

@@ -1,4 +1,5 @@
 package com.myNetty.thrift.client;
+import com.myNetty.thrift.Persion._Fields;
 
 import com.myNetty.thrift.Persion;
 import com.myNetty.thrift.PersionService;
@@ -19,10 +20,12 @@ public class ThriftClient {
              System.out.println(ammmm.getAge());
              System.out.println(ammmm.getUsername());
              Persion persion=new Persion();
-             persion.setAge(50);
-             persion.setUsername("Tom");
-             persion.setAgeIsSet(false);
-             client.savePersion(persion);
+             persion.setUsername("tom");
+             persion.setUsernameIsSet(false);
+             persion.setAge(0);
+
+
+//             client.savePersion(persion);
          }catch (Exception e){
              throw new RuntimeException(e.getMessage(),e);
          }finally {

@@ -2,111 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2830d2-bd41-4d57-83e7-63f643868dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_28_1_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_11_0_rc_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_11_0_rc_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_all_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_thrift_libthrift_0_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_compat_qual_2_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/nettytest.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/nettytest.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nettytest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$DataExceptionStandardScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$DataExceptionStandardSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$DataExceptionTupleScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$DataExceptionTupleSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$_Fields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$PersionStandardScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$PersionStandardSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$PersionTupleScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$PersionTupleSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$_Fields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncClient$Factory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncClient$getPersonByUserName_call.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncClient$savePersion_call.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncIface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor$getPersonByUserName$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor$getPersonByUserName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor$savePersion$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor$savePersion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Client$Factory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Iface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Processor$getPersonByUserName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Processor$savePersion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Processor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$_Fields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$getPersonByUserName_argsStandardScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$getPersonByUserName_argsStandardSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$getPersonByUserName_argsTupleScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$getPersonByUserName_argsTupleSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$_Fields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$getPersonByUserName_resultStandardScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$getPersonByUserName_resultStandardSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$getPersonByUserName_resultTupleScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$getPersonByUserName_resultTupleSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$_Fields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$savePersion_argsStandardScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$savePersion_argsStandardSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$savePersion_argsTupleScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$savePersion_argsTupleSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$_Fields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$savePersion_resultStandardScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$savePersion_resultStandardSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$savePersion_resultTupleScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$savePersion_resultTupleSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/client/ThriftClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/service/ThirftServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/thrift/DataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/thrift/Persion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/thrift/PersionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/thrift/PersionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/thrift/client/ThriftClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/thrift/service/ThirftServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thrift/data.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_annotations_4_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_common_protos_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_api_1_25_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_context_1_25_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_core_1_25_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_netty_shaded_1_25_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_protobuf_1_25_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_protobuf_lite_1_25_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_stub_1_25_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opencensus_opencensus_api_0_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opencensus_opencensus_contrib_grpc_metrics_0_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_perfmark_perfmark_api_0_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentServiceGrpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/student.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nettytest.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nettytest.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nettytest.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nettytest.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/protobuf/Student.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/protobuf/Student.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/chat/client/myChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/chat/client/myChatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/client/ThriftClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/client/ThriftClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/service/ThirftServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/service/ThirftServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/nettytest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/nettytest-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/chat/client/myChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/chat/client/myChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/thrift/client/ThriftClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/thrift/client/ThriftClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thrift/data.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrift/data.thrift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,28 +88,13 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="nettytest" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="nettytest" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nettytest" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nettytest" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -232,15 +152,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/myNetty/proto" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.62643677" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\mywork\nettytest\src\main" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.myNetty.thrift" />
       <recent name="com.myNetty.nettyProtobuf.client" />
@@ -248,8 +171,9 @@
       <recent name="com.myNetty.socket.client" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\gen-java\thrift\generated" />
+      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\proto" />
       <recent name="F:\mywork\nettytest\src\main\java\com\myNetty" />
+      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\gen-java\thrift\generated" />
       <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\websocket" />
       <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\chat\client" />
     </key>
@@ -378,7 +302,19 @@
       <workItem from="1574919395549" duration="29000" />
       <workItem from="1574919455701" duration="5222000" />
       <workItem from="1575009661382" duration="106000" />
-      <workItem from="1575011364366" duration="491000" />
+      <workItem from="1575011364366" duration="2306000" />
+      <workItem from="1575016438970" duration="1584000" />
+      <workItem from="1575248310297" duration="29000" />
+      <workItem from="1575251414523" duration="133000" />
+      <workItem from="1575513535606" duration="767000" />
+      <workItem from="1575514324822" duration="6218000" />
+      <workItem from="1575530747500" duration="599000" />
+      <workItem from="1575593236577" duration="2120000" />
+      <workItem from="1575602939638" duration="15000" />
+      <workItem from="1575620119399" duration="1425000" />
+      <workItem from="1575855260775" duration="1207000" />
+      <workItem from="1575858644471" duration="588000" />
+      <workItem from="1575871824533" duration="3521000" />
     </task>
     <task id="LOCAL-00001" summary="二五">
       <created>1574753232540</created>
@@ -387,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574753232540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="thrift 添加">
+      <created>1575011968696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575011968696</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,13 +352,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="二五" />
-    <option name="LAST_COMMIT_MESSAGE" value="二五" />
+    <MESSAGE value="thrift 添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="thrift 添加" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Project_Structure" timestamp="1574920273423">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1575597566022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1574920273423" />
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1575597566022" />
     <state x="0" y="333" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1574910120712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -424,6 +368,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="976" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1574921636657" />
+    <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575248331934">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1575248331934" />
     <state x="764" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1574913413174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -432,38 +380,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="659" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1574922769267" />
-    <state x="128" y="0" key="CommitChangelistDialog2" timestamp="1575011896388">
+    <state x="128" y="0" key="CommitChangelistDialog2" timestamp="1575011966982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="128" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575011896388" />
-    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1575009736013">
+    <state x="128" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575011966982" />
+    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1575880432876">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575009736013" />
-    <state width="1323" height="297" key="GridCell.Tab.0.bottom" timestamp="1574923804502">
+    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575880432876" />
+    <state width="1322" height="155" key="GridCell.Tab.0.bottom" timestamp="1575530720398">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="297" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1574923804502" />
-    <state width="1323" height="297" key="GridCell.Tab.0.center" timestamp="1574923804502">
+    <state width="1322" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575530720398" />
+    <state width="1322" height="155" key="GridCell.Tab.0.center" timestamp="1575530720398">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="297" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1574923804502" />
-    <state width="1323" height="297" key="GridCell.Tab.0.left" timestamp="1574923804502">
+    <state width="1322" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575530720398" />
+    <state width="1322" height="155" key="GridCell.Tab.0.left" timestamp="1575530720398">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="297" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1574923804502" />
-    <state width="1323" height="297" key="GridCell.Tab.0.right" timestamp="1574923804502">
+    <state width="1322" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575530720398" />
+    <state width="1322" height="155" key="GridCell.Tab.0.right" timestamp="1575530720398">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="297" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1574923804502" />
+    <state width="1322" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575530720398" />
     <state x="344" y="61" key="NewModule_or_Project.wizard" timestamp="1574913651099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="344" y="61" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1574913651099" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1575009750412">
+    <state x="207" y="0" key="SettingsEditor" timestamp="1575880438114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575009750412" />
+    <state x="207" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575880438114" />
     <state x="482" y="141" key="chooseDestDirectoryDialog" timestamp="1574912566996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -476,10 +424,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-115" y="409" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1574920115611" />
-    <state x="79" y="0" key="new project wizard" timestamp="1575008168154">
+    <state x="-90" y="0" width="1251" height="594" key="new project wizard" timestamp="1575602518110">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="79" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1575008168154" />
+    <state x="-90" y="0" width="1251" height="594" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1575602518110" />
     <state x="249" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1574921879861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -21,9 +21,9 @@ public class myChatClient {
             for(;;){
                 channel.writeAndFlush(br+"\r\n");
             }
-
         }finally {
             eventGroup.shutdownGracefully();
+
         }
     }
 }

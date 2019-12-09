@@ -1,5 +1,5 @@
 namespace java com.myNetty.thrift.generated
-
+namespace py py.thrift.generated
 typedef i16 short
 typedef i32 int
 typedef i64 long
@@ -22,4 +22,4 @@ service PersionService{
     Persion getPersonByUserName(1:required String username) throws (1:DataException dateException),
     void savePersion(1:required Persion persion) throws(1:DataException dataException)
 }
-//com.myNetty.thrift --gen java src/com.myNetty.thrift/data.com.myNetty.thrift
+//thrift --gen java src/thrift/data.thrift

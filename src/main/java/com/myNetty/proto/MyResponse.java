@@ -76,13 +76,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_MyResponse_descriptor;
+    return StudentProto.internal_static_com_myNetty_proto_MyResponse_descriptor;
   }
 
   @Override
   protected FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_MyResponse_fieldAccessorTable
+    return StudentProto.internal_static_com_myNetty_proto_MyResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             MyResponse.class, Builder.class);
   }
@@ -283,16 +283,16 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:com.myNetty.proto.MyResponse)
-      com.myNetty.proto.MyResponseOrBuilder {
+      MyResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_MyResponse_descriptor;
+      return StudentProto.internal_static_com_myNetty_proto_MyResponse_descriptor;
     }
 
     @Override
     protected FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_MyResponse_fieldAccessorTable
+      return StudentProto.internal_static_com_myNetty_proto_MyResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               MyResponse.class, Builder.class);
     }
@@ -323,7 +323,7 @@ private static final long serialVersionUID = 0L;
     @Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_MyResponse_descriptor;
+      return StudentProto.internal_static_com_myNetty_proto_MyResponse_descriptor;
     }
 
     @Override

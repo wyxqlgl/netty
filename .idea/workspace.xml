@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2830d2-bd41-4d57-83e7-63f643868dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResquestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/client/GrpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/server/GrpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/server/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponseListOrBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/annotations.proto" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/auth.proto" beforeDir="false" />
@@ -72,75 +65,23 @@
       <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/money.proto" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/postal_address.proto" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/timeofday.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/annotations.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/auth.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/backend.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/billing.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/config_change.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/consumer.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/context.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/control.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/distribution.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/documentation.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/endpoint.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/experimental/authorization_config.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/experimental/experimental.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/http.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/httpbody.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/label.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/log.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/logging.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/metric.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/monitored_resource.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/monitoring.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/quota.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/service.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/source_info.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/system_parameter.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/usage.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/cloud/audit/audit_log.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/logging/type/http_request.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/logging/type/log_severity.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/longrunning/operations.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/any.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/api.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/compiler/plugin.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/descriptor.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/duration.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/empty.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/field_mask.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/source_context.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/struct.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/timestamp.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/type.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/wrappers.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/rpc/code.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/rpc/error_details.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/rpc/status.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/color.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/date.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/dayofweek.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/latlng.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/money.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/postal_address.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/timeofday.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/protobuf/Student.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/student.proto" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/grpc/com/myNetty/proto/StudentServiceGrpc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/MyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResquest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/MyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/MyRequestOrBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/MyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/MyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/MyResponseOrBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/StudentProto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/nettytest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/protobuf/Student.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/student.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/websocket/webSocketTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/StudentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/StudentResponseOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/StudentResquest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/com/myNetty/proto/StudentResquestOrBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResquest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResquest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentServiceGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/client/GrpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/client/GrpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/server/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/server/GrpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/server/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/server/StudentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/proto/student.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/student.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,12 +202,8 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\proto" />
-      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty" />
-      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\gen-java\thrift\generated" />
-      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\websocket" />
-      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\chat\client" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\mywork\nettytest\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.myNetty.thrift" />
@@ -274,8 +211,12 @@
       <recent name="com.myNetty.chat.server" />
       <recent name="com.myNetty.socket.client" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\mywork\nettytest\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\proto" />
+      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty" />
+      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\gen-java\thrift\generated" />
+      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\websocket" />
+      <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\chat\client" />
     </key>
   </component>
   <component name="RunManager" selected="Application.GrpcClient">
@@ -416,7 +357,9 @@
       <workItem from="1575858644471" duration="588000" />
       <workItem from="1575871824533" duration="3521000" />
       <workItem from="1575942584859" duration="3701000" />
-      <workItem from="1575948943716" duration="6676000" />
+      <workItem from="1575948943716" duration="7702000" />
+      <workItem from="1576025289005" duration="1863000" />
+      <workItem from="1576120089129" duration="5175000" />
     </task>
     <task id="LOCAL-00001" summary="二五">
       <created>1574753232540</created>
@@ -462,6 +405,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1575597566022" />
+    <state x="413" y="117" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1576131408634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="117" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576131408634" />
     <state x="160" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575959961241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -490,10 +437,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="128" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575011966982" />
-    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1575960052313">
+    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1576051441794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575960052313" />
+    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576051441794" />
     <state width="1322" height="155" key="GridCell.Tab.0.bottom" timestamp="1575948922242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

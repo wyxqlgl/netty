@@ -6,6 +6,8 @@ option java_multiple_files=true;
 service StudentService{
     rpc GetRealNameByUsername(MyRequest) returns (MyResponse){}
     rpc GetStudentsByAge(StudentResquest) returns (stream StudentResponse){}
+    rpc GetStudentWrapperByAges(stream StudentResquest) returns (StudentResponseList){}
+    rpc BiTalk(stream StreamRequest)returns(stream StreamResponse){}
 }
 message StudentResquest{
     int32 age=1;
@@ -21,4 +23,14 @@ message MyRequest{
 message MyResponse{
     string realname=2;
 }
+message StudentResponseList{
+    repeated StudentResponse studentResponse=1;
+}
+message StreamRequest{
+    string request_info=1;
+}
+message StreamResponse{
+    string response_info=1;
+}
 //gradle generateProto build
+

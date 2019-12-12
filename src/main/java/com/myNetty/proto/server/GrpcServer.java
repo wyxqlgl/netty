@@ -9,9 +9,9 @@ public class GrpcServer {
     public void start() throws Exception{
         this.server= ServerBuilder.forPort(8889).addService(new StudentServiceImpl()).build().start();
         System.out.println("server start!");
-        //»Øµ÷¹³×Ó ÊÇÔÚÐéÄâ»úÔËÐÐ½áÊøÒÔÇ°×îºóÔËÐÐµÄÒ»¶Î³ÌÐò »Øµ÷¹³×Ó²»ÄÜÔËÐÐºÜ³¤µÄ³ÌÐò Ö»ÄÜÔËÐÐºÜ¶ÌµÄ³ÌÐò
+        //å›žè°ƒé’©å­ å°±æ˜¯åœ¨jvm å°†è¦å…³é—­çš„æ—¶å€™è°ƒç”¨çš„å‡½æ•° ä½†æ˜¯å›žè°ƒé’©å­ ä¸èƒ½æ‰§è¡Œå¤§æ•°æ®é‡çš„æ“ä½œ åªèƒ½è¿›è¡Œç®€å•çš„æ•°æ®æ“ä½œ
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            System.out.println("¹Ø±Õjvm");
+            System.out.println("jvm");
             GrpcServer.this.stop();
         }));
     }

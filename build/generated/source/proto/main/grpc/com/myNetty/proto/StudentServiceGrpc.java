@@ -89,6 +89,68 @@ public final class StudentServiceGrpc {
     return getGetStudentsByAgeMethod;
   }
 
+  private static volatile io.grpc.MethodDescriptor<com.myNetty.proto.StudentResquest,
+      com.myNetty.proto.StudentResponseList> getGetStudentWrapperByAgesMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "GetStudentWrapperByAges",
+      requestType = com.myNetty.proto.StudentResquest.class,
+      responseType = com.myNetty.proto.StudentResponseList.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.CLIENT_STREAMING)
+  public static io.grpc.MethodDescriptor<com.myNetty.proto.StudentResquest,
+      com.myNetty.proto.StudentResponseList> getGetStudentWrapperByAgesMethod() {
+    io.grpc.MethodDescriptor<com.myNetty.proto.StudentResquest, com.myNetty.proto.StudentResponseList> getGetStudentWrapperByAgesMethod;
+    if ((getGetStudentWrapperByAgesMethod = StudentServiceGrpc.getGetStudentWrapperByAgesMethod) == null) {
+      synchronized (StudentServiceGrpc.class) {
+        if ((getGetStudentWrapperByAgesMethod = StudentServiceGrpc.getGetStudentWrapperByAgesMethod) == null) {
+          StudentServiceGrpc.getGetStudentWrapperByAgesMethod = getGetStudentWrapperByAgesMethod =
+              io.grpc.MethodDescriptor.<com.myNetty.proto.StudentResquest, com.myNetty.proto.StudentResponseList>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.CLIENT_STREAMING)
+              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "GetStudentWrapperByAges"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.myNetty.proto.StudentResquest.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.myNetty.proto.StudentResponseList.getDefaultInstance()))
+              .setSchemaDescriptor(new StudentServiceMethodDescriptorSupplier("GetStudentWrapperByAges"))
+              .build();
+        }
+      }
+    }
+    return getGetStudentWrapperByAgesMethod;
+  }
+
+  private static volatile io.grpc.MethodDescriptor<com.myNetty.proto.StreamRequest,
+      com.myNetty.proto.StreamResponse> getBiTalkMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "BiTalk",
+      requestType = com.myNetty.proto.StreamRequest.class,
+      responseType = com.myNetty.proto.StreamResponse.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.BIDI_STREAMING)
+  public static io.grpc.MethodDescriptor<com.myNetty.proto.StreamRequest,
+      com.myNetty.proto.StreamResponse> getBiTalkMethod() {
+    io.grpc.MethodDescriptor<com.myNetty.proto.StreamRequest, com.myNetty.proto.StreamResponse> getBiTalkMethod;
+    if ((getBiTalkMethod = StudentServiceGrpc.getBiTalkMethod) == null) {
+      synchronized (StudentServiceGrpc.class) {
+        if ((getBiTalkMethod = StudentServiceGrpc.getBiTalkMethod) == null) {
+          StudentServiceGrpc.getBiTalkMethod = getBiTalkMethod =
+              io.grpc.MethodDescriptor.<com.myNetty.proto.StreamRequest, com.myNetty.proto.StreamResponse>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.BIDI_STREAMING)
+              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "BiTalk"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.myNetty.proto.StreamRequest.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  com.myNetty.proto.StreamResponse.getDefaultInstance()))
+              .setSchemaDescriptor(new StudentServiceMethodDescriptorSupplier("BiTalk"))
+              .build();
+        }
+      }
+    }
+    return getBiTalkMethod;
+  }
+
   /**
    * Creates a new async stub that supports all call types for the service
    */
@@ -130,6 +192,20 @@ public final class StudentServiceGrpc {
       asyncUnimplementedUnaryCall(getGetStudentsByAgeMethod(), responseObserver);
     }
 
+    /**
+     */
+    public io.grpc.stub.StreamObserver<com.myNetty.proto.StudentResquest> getStudentWrapperByAges(
+        io.grpc.stub.StreamObserver<com.myNetty.proto.StudentResponseList> responseObserver) {
+      return asyncUnimplementedStreamingCall(getGetStudentWrapperByAgesMethod(), responseObserver);
+    }
+
+    /**
+     */
+    public io.grpc.stub.StreamObserver<com.myNetty.proto.StreamRequest> biTalk(
+        io.grpc.stub.StreamObserver<com.myNetty.proto.StreamResponse> responseObserver) {
+      return asyncUnimplementedStreamingCall(getBiTalkMethod(), responseObserver);
+    }
+
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
@@ -146,6 +222,20 @@ public final class StudentServiceGrpc {
                 com.myNetty.proto.StudentResquest,
                 com.myNetty.proto.StudentResponse>(
                   this, METHODID_GET_STUDENTS_BY_AGE)))
+          .addMethod(
+            getGetStudentWrapperByAgesMethod(),
+            asyncClientStreamingCall(
+              new MethodHandlers<
+                com.myNetty.proto.StudentResquest,
+                com.myNetty.proto.StudentResponseList>(
+                  this, METHODID_GET_STUDENT_WRAPPER_BY_AGES)))
+          .addMethod(
+            getBiTalkMethod(),
+            asyncBidiStreamingCall(
+              new MethodHandlers<
+                com.myNetty.proto.StreamRequest,
+                com.myNetty.proto.StreamResponse>(
+                  this, METHODID_BI_TALK)))
           .build();
     }
   }
@@ -182,6 +272,22 @@ public final class StudentServiceGrpc {
         io.grpc.stub.StreamObserver<com.myNetty.proto.StudentResponse> responseObserver) {
       asyncServerStreamingCall(
           getChannel().newCall(getGetStudentsByAgeMethod(), getCallOptions()), request, responseObserver);
+    }
+
+    /**
+     */
+    public io.grpc.stub.StreamObserver<com.myNetty.proto.StudentResquest> getStudentWrapperByAges(
+        io.grpc.stub.StreamObserver<com.myNetty.proto.StudentResponseList> responseObserver) {
+      return asyncClientStreamingCall(
+          getChannel().newCall(getGetStudentWrapperByAgesMethod(), getCallOptions()), responseObserver);
+    }
+
+    /**
+     */
+    public io.grpc.stub.StreamObserver<com.myNetty.proto.StreamRequest> biTalk(
+        io.grpc.stub.StreamObserver<com.myNetty.proto.StreamResponse> responseObserver) {
+      return asyncBidiStreamingCall(
+          getChannel().newCall(getBiTalkMethod(), getCallOptions()), responseObserver);
     }
   }
 
@@ -248,6 +354,8 @@ public final class StudentServiceGrpc {
 
   private static final int METHODID_GET_REAL_NAME_BY_USERNAME = 0;
   private static final int METHODID_GET_STUDENTS_BY_AGE = 1;
+  private static final int METHODID_GET_STUDENT_WRAPPER_BY_AGES = 2;
+  private static final int METHODID_BI_TALK = 3;
 
   private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -284,6 +392,12 @@ public final class StudentServiceGrpc {
     public io.grpc.stub.StreamObserver<Req> invoke(
         io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
+        case METHODID_GET_STUDENT_WRAPPER_BY_AGES:
+          return (io.grpc.stub.StreamObserver<Req>) serviceImpl.getStudentWrapperByAges(
+              (io.grpc.stub.StreamObserver<com.myNetty.proto.StudentResponseList>) responseObserver);
+        case METHODID_BI_TALK:
+          return (io.grpc.stub.StreamObserver<Req>) serviceImpl.biTalk(
+              (io.grpc.stub.StreamObserver<com.myNetty.proto.StreamResponse>) responseObserver);
         default:
           throw new AssertionError();
       }
@@ -337,6 +451,8 @@ public final class StudentServiceGrpc {
               .setSchemaDescriptor(new StudentServiceFileDescriptorSupplier())
               .addMethod(getGetRealNameByUsernameMethod())
               .addMethod(getGetStudentsByAgeMethod())
+              .addMethod(getGetStudentWrapperByAgesMethod())
+              .addMethod(getBiTalkMethod())
               .build();
         }
       }

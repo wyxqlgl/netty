@@ -31,6 +31,7 @@ dependencies {
     )
 }
 
+//grpc 插件
 protobuf {
     protoc {
         artifact = "com.google.protobuf:protoc:3.10.0"
@@ -38,11 +39,14 @@ protobuf {
     plugins {
         grpc {
             artifact = 'io.grpc:protoc-gen-grpc-java:1.25.0'
+            generatedFilesBaseDir = "src"
         }
     }
     generateProtoTasks {
         all()*.plugins {
-            grpc {}
+            grpc {
+                outputSubDir = 'java'
+            }
         }
     }
 }

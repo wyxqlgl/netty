@@ -57,7 +57,7 @@ public final class StudentProto {
   private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
-    String[] descriptorData = {
+    java.lang.String[] descriptorData = {
       "\n\rstudent.proto\022\021com.myNetty.proto\"\036\n\017St" +
       "udentResquest\022\013\n\003age\030\001 \001(\005\":\n\017StudentRes" +
       "ponse\022\014\n\004name\030\001 \001(\t\022\013\n\003age\030\002 \001(\005\022\014\n\004city" +
@@ -88,43 +88,43 @@ public final class StudentProto {
     internal_static_com_myNetty_proto_StudentResquest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_myNetty_proto_StudentResquest_descriptor,
-        new String[] { "Age", });
+        new java.lang.String[] { "Age", });
     internal_static_com_myNetty_proto_StudentResponse_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_com_myNetty_proto_StudentResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_myNetty_proto_StudentResponse_descriptor,
-        new String[] { "Name", "Age", "City", });
+        new java.lang.String[] { "Name", "Age", "City", });
     internal_static_com_myNetty_proto_MyRequest_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_com_myNetty_proto_MyRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_myNetty_proto_MyRequest_descriptor,
-        new String[] { "Username", });
+        new java.lang.String[] { "Username", });
     internal_static_com_myNetty_proto_MyResponse_descriptor =
       getDescriptor().getMessageTypes().get(3);
     internal_static_com_myNetty_proto_MyResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_myNetty_proto_MyResponse_descriptor,
-        new String[] { "Realname", });
+        new java.lang.String[] { "Realname", });
     internal_static_com_myNetty_proto_StudentResponseList_descriptor =
       getDescriptor().getMessageTypes().get(4);
     internal_static_com_myNetty_proto_StudentResponseList_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_myNetty_proto_StudentResponseList_descriptor,
-        new String[] { "StudentResponse", });
+        new java.lang.String[] { "StudentResponse", });
     internal_static_com_myNetty_proto_StreamRequest_descriptor =
       getDescriptor().getMessageTypes().get(5);
     internal_static_com_myNetty_proto_StreamRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_myNetty_proto_StreamRequest_descriptor,
-        new String[] { "RequestInfo", });
+        new java.lang.String[] { "RequestInfo", });
     internal_static_com_myNetty_proto_StreamResponse_descriptor =
       getDescriptor().getMessageTypes().get(6);
     internal_static_com_myNetty_proto_StreamResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_myNetty_proto_StreamResponse_descriptor,
-        new String[] { "ResponseInfo", });
+        new java.lang.String[] { "ResponseInfo", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -2,13 +2,333 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2830d2-bd41-4d57-83e7-63f643868dc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/chat/client/MyChatClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/chat/client/myChatClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/chat/client/myChatClientInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/chat/server/ChatServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/chat/server/ChatServerInitialiner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/chat/server/chatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/heartbeat/HearBeatHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/heartbeat/HearBeatHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/heartbeat/HeartBeat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/heartbeat/HeartBeatInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/https/TestHttpServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/https/TestServerInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/https/TestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$Cat$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$Cat$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$CatOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$Dog$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$Dog$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$DogOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$MyMessage$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$MyMessage$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$MyMessage$DataBodyCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$MyMessage$DataType$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$MyMessage$DataType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$MyMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$MyMessageOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$Person$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$Person$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo$PersonOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/MyDataInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/client/protobufClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/client/protobufClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/client/protobufClientInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/protobuf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/protobufHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nettyProtobuf/protobufInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/Iotest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/NioClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/NioServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/Niotest2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/Niotest3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/Niotest4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/Niotest5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/Niotest6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/Niotest7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/Niotext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/nio/Niotext1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/MyRequest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/MyRequest$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/MyRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/MyRequestOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/MyResponse$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/MyResponse$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/MyResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/MyResponseOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StreamRequest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StreamRequest$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StreamRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StreamRequestOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StreamResponse$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StreamResponse$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StreamResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StreamResponseOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentProto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResponse$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResponse$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResponseList$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResponseList$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResponseList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResponseListOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResponseOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResquest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResquest$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResquest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentResquestOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc$MethodHandlers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc$StudentServiceBaseDescriptorSupplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc$StudentServiceBlockingStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc$StudentServiceFileDescriptorSupplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc$StudentServiceFutureStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc$StudentServiceImplBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc$StudentServiceMethodDescriptorSupplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc$StudentServiceStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/StudentServiceGrpc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/client/GrpcClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/client/GrpcClient$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/client/GrpcClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/server/GrpcServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/server/StudentServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/server/StudentServiceImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/proto/server/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/protobuf/DataInfo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/protobuf/DataInfo$Student$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/protobuf/DataInfo$Student$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/protobuf/DataInfo$Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/protobuf/DataInfo$StudentOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/protobuf/DataInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/protobuf/protobufTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/socket/client/MyClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/socket/client/myClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/socket/client/myClientInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/socket/server/MyServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/socket/server/myServerInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/socket/server/myService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$DataExceptionStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$DataExceptionStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$DataExceptionTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$DataExceptionTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/DataException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$PersionStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$PersionStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$PersionTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$PersionTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/Persion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncClient$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncClient$getPersonByUserName_call.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncClient$savePersion_call.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncIface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor$getPersonByUserName$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor$getPersonByUserName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor$savePersion$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor$savePersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$AsyncProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Client$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Iface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Processor$getPersonByUserName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Processor$savePersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$Processor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$getPersonByUserName_argsStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$getPersonByUserName_argsStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$getPersonByUserName_argsTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args$getPersonByUserName_argsTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_args.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$getPersonByUserName_resultStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$getPersonByUserName_resultStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$getPersonByUserName_resultTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result$getPersonByUserName_resultTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$getPersonByUserName_result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$savePersion_argsStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$savePersion_argsStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$savePersion_argsTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args$savePersion_argsTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_args.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$savePersion_resultStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$savePersion_resultStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$savePersion_resultTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result$savePersion_resultTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService$savePersion_result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/PersionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/client/ThriftClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/thrift/service/ThirftServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/websocket/webSocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/websocket/webSocketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/myNetty/websocket/webSocketInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/annotations.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/auth.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/backend.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/billing.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/config_change.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/consumer.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/control.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/distribution.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/documentation.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/endpoint.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/experimental/authorization_config.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/experimental/experimental.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/http.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/httpbody.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/label.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/log.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/logging.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/metric.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/monitored_resource.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/monitoring.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/quota.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/source_info.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/system_parameter.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/usage.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/cloud/audit/audit_log.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/logging/type/http_request.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/logging/type/log_severity.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/longrunning/operations.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/any.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/api.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/descriptor.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/duration.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/empty.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/field_mask.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/source_context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/struct.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/timestamp.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/type.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/wrappers.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/code.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/error_details.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/status.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/color.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/date.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/dayofweek.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/latlng.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/money.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/postal_address.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/timeofday.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/annotations.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/auth.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/backend.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/billing.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/config_change.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/consumer.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/control.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/distribution.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/documentation.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/endpoint.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/experimental/authorization_config.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/experimental/experimental.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/http.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/httpbody.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/label.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/log.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/logging.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/metric.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/monitored_resource.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/monitoring.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/quota.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/source_info.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/system_parameter.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/usage.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/cloud/audit/audit_log.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/logging/type/http_request.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/logging/type/log_severity.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/longrunning/operations.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/any.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/api.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/descriptor.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/duration.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/empty.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/field_mask.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/source_context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/struct.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/timestamp.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/type.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/wrappers.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/rpc/code.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/rpc/error_details.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/rpc/status.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/color.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/date.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/dayofweek.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/latlng.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/money.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/postal_address.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/timeofday.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/protobuf/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/extracted-include-protos/test/student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/protobuf/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/websocket/webSocketTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/Iotest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/NioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/NioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/Niotest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/Niotest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/Niotest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/Niotest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/Niotest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/Niotest7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/Niotext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/nio/Niotext1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyRequestOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyRequestOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyResponseOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/MyResponseOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamRequestOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamRequestOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamResponseOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StreamResponseOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponseListOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponseListOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponseOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResponseOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResquest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentResquest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myNetty/proto/StudentServiceGrpc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,22 +361,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="nettytest" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nettytest" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nettytest" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="nettytest" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -114,19 +418,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/myNetty/proto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.62643677" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\mywork\nettytest\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.myNetty.nio" />
       <recent name="com.myNetty.thrift" />
       <recent name="com.myNetty.nettyProtobuf.client" />
       <recent name="com.myNetty.chat.server" />
@@ -140,13 +445,13 @@
       <recent name="F:\mywork\nettytest\src\main\java\com\myNetty\chat\client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GrpcClient">
-    <configuration name="GrpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myNetty.proto.client.GrpcClient" />
+  <component name="RunManager" selected="Application.NioClient">
+    <configuration name="NioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myNetty.nio.NioClient" />
       <module name="nettytest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myNetty.proto.client.*" />
+          <option name="PATTERN" value="com.myNetty.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +459,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myNetty.proto.server.GrpcServer" />
+    <configuration name="NioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myNetty.nio.NioServer" />
       <module name="nettytest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myNetty.proto.server.*" />
+          <option name="PATTERN" value="com.myNetty.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,26 +472,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirftServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myNetty.thrift.service.ThirftServer" />
-      <module name="nettytest.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThriftClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myNetty.thrift.client.ThriftClient" />
-      <module name="nettytest.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="protobufClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myNetty.nettyProtobuf.client.protobufClient" />
+    <configuration name="Niotest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myNetty.nio.Niotest3" />
       <module name="nettytest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myNetty.nettyProtobuf.client.*" />
+          <option name="PATTERN" value="com.myNetty.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Niotest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myNetty.nio.Niotest6" />
+      <module name="nettytest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myNetty.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Niotest7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myNetty.nio.Niotest7" />
+      <module name="nettytest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myNetty.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +512,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.protobufClient" />
-      <item itemvalue="Application.ThirftServer" />
-      <item itemvalue="Application.ThriftClient" />
-      <item itemvalue="Application.GrpcServer" />
-      <item itemvalue="Application.GrpcClient" />
+      <item itemvalue="Application.Niotest3" />
+      <item itemvalue="Application.Niotest6" />
+      <item itemvalue="Application.Niotest7" />
+      <item itemvalue="Application.NioServer" />
+      <item itemvalue="Application.NioClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GrpcClient" />
-        <item itemvalue="Application.GrpcServer" />
-        <item itemvalue="Application.ThriftClient" />
-        <item itemvalue="Application.ThirftServer" />
-        <item itemvalue="Application.protobufClient" />
+        <item itemvalue="Application.NioClient" />
+        <item itemvalue="Application.NioServer" />
+        <item itemvalue="Application.Niotest7" />
+        <item itemvalue="Application.Niotest6" />
+        <item itemvalue="Application.Niotest3" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +598,20 @@
       <workItem from="1575948943716" duration="7702000" />
       <workItem from="1576025289005" duration="1863000" />
       <workItem from="1576120089129" duration="5175000" />
-      <workItem from="1576136954784" duration="17000" />
+      <workItem from="1576136954784" duration="1143000" />
+      <workItem from="1576219618352" duration="604000" />
+      <workItem from="1576242959640" duration="776000" />
+      <workItem from="1576464421371" duration="5242000" />
+      <workItem from="1576549681759" duration="3999000" />
+      <workItem from="1576638685006" duration="5295000" />
+      <workItem from="1576722306110" duration="5317000" />
+      <workItem from="1576734654528" duration="16000" />
+      <workItem from="1576828539847" duration="3024000" />
+      <workItem from="1577078928705" duration="5253000" />
+      <workItem from="1577149258487" duration="398000" />
+      <workItem from="1577149678441" duration="12985000" />
+      <workItem from="1577240942302" duration="14306000" />
+      <workItem from="1577323064446" duration="5455000" />
     </task>
     <task id="LOCAL-00001" summary="二五">
       <created>1574753232540</created>
@@ -327,6 +657,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1575597566022" />
+    <state x="275" y="21" key="#Updates" timestamp="1577323081660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Updates/0.0.1366.728@0.0.1366.728" timestamp="1577323081660" />
     <state x="413" y="117" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1576131408634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -339,10 +673,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="333" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1574910120712" />
-    <state x="976" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1574921636657">
+    <state x="976" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1577170586568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="976" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1574921636657" />
+    <state x="976" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577170586568" />
     <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575948731854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -359,34 +693,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="128" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575011966982" />
-    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1576051441794">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1577255910513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576051441794" />
-    <state width="1322" height="155" key="GridCell.Tab.0.bottom" timestamp="1575948922242">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1577255910513" />
+    <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1576734663355">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575948922242" />
-    <state width="1322" height="155" key="GridCell.Tab.0.center" timestamp="1575948922242">
+    <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576734663355" />
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom" timestamp="1577328493965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575948922242" />
-    <state width="1322" height="155" key="GridCell.Tab.0.left" timestamp="1575948922242">
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577328493965" />
+    <state width="1322" height="2" key="GridCell.Tab.0.center" timestamp="1577328493964">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575948922242" />
-    <state width="1322" height="155" key="GridCell.Tab.0.right" timestamp="1575948922242">
+    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577328493964" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left" timestamp="1577328493964">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575948922242" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577328493964" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right" timestamp="1577328493965">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577328493965" />
     <state x="344" y="61" key="NewModule_or_Project.wizard" timestamp="1574913651099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="344" y="61" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1574913651099" />
-    <state x="-21" y="0" width="1160" height="728" key="SettingsEditor" timestamp="1575961577807">
+    <state x="152" y="0" width="1124" height="728" key="SettingsEditor" timestamp="1577241811200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-21" y="0" width="1160" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575961577807" />
+    <state x="152" y="0" width="1124" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577241811200" />
     <state x="482" y="141" key="chooseDestDirectoryDialog" timestamp="1574912566996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -403,6 +741,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-90" y="0" width="1251" height="594" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1575602518110" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1577255350954">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1577255350954" />
     <state x="249" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1574921879861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -420,6 +762,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/myNetty/websocket/webSocket.java</url>
           <line>19</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/myNetty/nio/NioServer.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -18,14 +18,14 @@ private static final long serialVersionUID = 0L;
   private StudentResquest() {
   }
 
-  @Override
+  @java.lang.Override
   @SuppressWarnings({"unused"})
-  protected Object newInstance(
+  protected java.lang.Object newInstance(
       UnusedPrivateParameter unused) {
     return new StudentResquest();
   }
 
-  @Override
+  @java.lang.Override
   public final com.google.protobuf.UnknownFieldSet
   getUnknownFields() {
     return this.unknownFields;
@@ -36,7 +36,7 @@ private static final long serialVersionUID = 0L;
       throws com.google.protobuf.InvalidProtocolBufferException {
     this();
     if (extensionRegistry == null) {
-      throw new NullPointerException();
+      throw new java.lang.NullPointerException();
     }
     com.google.protobuf.UnknownFieldSet.Builder unknownFields =
         com.google.protobuf.UnknownFieldSet.newBuilder();
@@ -74,15 +74,15 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return StudentProto.internal_static_com_myNetty_proto_StudentResquest_descriptor;
+    return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_StudentResquest_descriptor;
   }
 
-  @Override
-  protected FieldAccessorTable
+  @java.lang.Override
+  protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return StudentProto.internal_static_com_myNetty_proto_StudentResquest_fieldAccessorTable
+    return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_StudentResquest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            StudentResquest.class, Builder.class);
+            com.myNetty.proto.StudentResquest.class, com.myNetty.proto.StudentResquest.Builder.class);
   }
 
   public static final int AGE_FIELD_NUMBER = 1;
@@ -96,7 +96,7 @@ private static final long serialVersionUID = 0L;
   }
 
   private byte memoizedIsInitialized = -1;
-  @Override
+  @java.lang.Override
   public final boolean isInitialized() {
     byte isInitialized = memoizedIsInitialized;
     if (isInitialized == 1) return true;
@@ -106,7 +106,7 @@ private static final long serialVersionUID = 0L;
     return true;
   }
 
-  @Override
+  @java.lang.Override
   public void writeTo(com.google.protobuf.CodedOutputStream output)
                       throws java.io.IOException {
     if (age_ != 0) {
@@ -115,7 +115,7 @@ private static final long serialVersionUID = 0L;
     unknownFields.writeTo(output);
   }
 
-  @Override
+  @java.lang.Override
   public int getSerializedSize() {
     int size = memoizedSize;
     if (size != -1) return size;
@@ -130,15 +130,15 @@ private static final long serialVersionUID = 0L;
     return size;
   }
 
-  @Override
-  public boolean equals(final Object obj) {
+  @java.lang.Override
+  public boolean equals(final java.lang.Object obj) {
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof StudentResquest)) {
+    if (!(obj instanceof com.myNetty.proto.StudentResquest)) {
       return super.equals(obj);
     }
-    StudentResquest other = (StudentResquest) obj;
+    com.myNetty.proto.StudentResquest other = (com.myNetty.proto.StudentResquest) obj;
 
     if (getAge()
         != other.getAge()) return false;
@@ -146,7 +146,7 @@ private static final long serialVersionUID = 0L;
     return true;
   }
 
-  @Override
+  @java.lang.Override
   public int hashCode() {
     if (memoizedHashCode != 0) {
       return memoizedHashCode;
@@ -160,69 +160,69 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static StudentResquest parseFrom(
+  public static com.myNetty.proto.StudentResquest parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static StudentResquest parseFrom(
+  public static com.myNetty.proto.StudentResquest parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static StudentResquest parseFrom(
+  public static com.myNetty.proto.StudentResquest parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static StudentResquest parseFrom(
+  public static com.myNetty.proto.StudentResquest parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static StudentResquest parseFrom(byte[] data)
+  public static com.myNetty.proto.StudentResquest parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static StudentResquest parseFrom(
+  public static com.myNetty.proto.StudentResquest parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static StudentResquest parseFrom(java.io.InputStream input)
+  public static com.myNetty.proto.StudentResquest parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static StudentResquest parseFrom(
+  public static com.myNetty.proto.StudentResquest parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
-  public static StudentResquest parseDelimitedFrom(java.io.InputStream input)
+  public static com.myNetty.proto.StudentResquest parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input);
   }
-  public static StudentResquest parseDelimitedFrom(
+  public static com.myNetty.proto.StudentResquest parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static StudentResquest parseFrom(
+  public static com.myNetty.proto.StudentResquest parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static StudentResquest parseFrom(
+  public static com.myNetty.proto.StudentResquest parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -230,23 +230,23 @@ private static final long serialVersionUID = 0L;
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
 
-  @Override
+  @java.lang.Override
   public Builder newBuilderForType() { return newBuilder(); }
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(StudentResquest prototype) {
+  public static Builder newBuilder(com.myNetty.proto.StudentResquest prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
-  @Override
+  @java.lang.Override
   public Builder toBuilder() {
     return this == DEFAULT_INSTANCE
         ? new Builder() : new Builder().mergeFrom(this);
   }
 
-  @Override
+  @java.lang.Override
   protected Builder newBuilderForType(
-      BuilderParent parent) {
+      com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
     Builder builder = new Builder(parent);
     return builder;
   }
@@ -256,18 +256,18 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:com.myNetty.proto.StudentResquest)
-      StudentResquestOrBuilder {
+      com.myNetty.proto.StudentResquestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return StudentProto.internal_static_com_myNetty_proto_StudentResquest_descriptor;
+      return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_StudentResquest_descriptor;
     }
 
-    @Override
-    protected FieldAccessorTable
+    @java.lang.Override
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return StudentProto.internal_static_com_myNetty_proto_StudentResquest_fieldAccessorTable
+      return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_StudentResquest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              StudentResquest.class, Builder.class);
+              com.myNetty.proto.StudentResquest.class, com.myNetty.proto.StudentResquest.Builder.class);
     }
 
     // Construct using com.myNetty.proto.StudentResquest.newBuilder()
@@ -276,7 +276,7 @@ private static final long serialVersionUID = 0L;
     }
 
     private Builder(
-        BuilderParent parent) {
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
       super(parent);
       maybeForceBuilderInitialization();
     }
@@ -285,7 +285,7 @@ private static final long serialVersionUID = 0L;
               .alwaysUseFieldBuilders) {
       }
     }
-    @Override
+    @java.lang.Override
     public Builder clear() {
       super.clear();
       age_ = 0;
@@ -293,78 +293,78 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
-    @Override
+    @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return StudentProto.internal_static_com_myNetty_proto_StudentResquest_descriptor;
+      return com.myNetty.proto.StudentProto.internal_static_com_myNetty_proto_StudentResquest_descriptor;
     }
 
-    @Override
-    public StudentResquest getDefaultInstanceForType() {
-      return StudentResquest.getDefaultInstance();
+    @java.lang.Override
+    public com.myNetty.proto.StudentResquest getDefaultInstanceForType() {
+      return com.myNetty.proto.StudentResquest.getDefaultInstance();
     }
 
-    @Override
-    public StudentResquest build() {
-      StudentResquest result = buildPartial();
+    @java.lang.Override
+    public com.myNetty.proto.StudentResquest build() {
+      com.myNetty.proto.StudentResquest result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
       return result;
     }
 
-    @Override
-    public StudentResquest buildPartial() {
-      StudentResquest result = new StudentResquest(this);
+    @java.lang.Override
+    public com.myNetty.proto.StudentResquest buildPartial() {
+      com.myNetty.proto.StudentResquest result = new com.myNetty.proto.StudentResquest(this);
       result.age_ = age_;
       onBuilt();
       return result;
     }
 
-    @Override
+    @java.lang.Override
     public Builder clone() {
       return super.clone();
     }
-    @Override
+    @java.lang.Override
     public Builder setField(
         com.google.protobuf.Descriptors.FieldDescriptor field,
-        Object value) {
+        java.lang.Object value) {
       return super.setField(field, value);
     }
-    @Override
+    @java.lang.Override
     public Builder clearField(
         com.google.protobuf.Descriptors.FieldDescriptor field) {
       return super.clearField(field);
     }
-    @Override
+    @java.lang.Override
     public Builder clearOneof(
         com.google.protobuf.Descriptors.OneofDescriptor oneof) {
       return super.clearOneof(oneof);
     }
-    @Override
+    @java.lang.Override
     public Builder setRepeatedField(
         com.google.protobuf.Descriptors.FieldDescriptor field,
-        int index, Object value) {
+        int index, java.lang.Object value) {
       return super.setRepeatedField(field, index, value);
     }
-    @Override
+    @java.lang.Override
     public Builder addRepeatedField(
         com.google.protobuf.Descriptors.FieldDescriptor field,
-        Object value) {
+        java.lang.Object value) {
       return super.addRepeatedField(field, value);
     }
-    @Override
+    @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof StudentResquest) {
-        return mergeFrom((StudentResquest)other);
+      if (other instanceof com.myNetty.proto.StudentResquest) {
+        return mergeFrom((com.myNetty.proto.StudentResquest)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(StudentResquest other) {
-      if (other == StudentResquest.getDefaultInstance()) return this;
+    public Builder mergeFrom(com.myNetty.proto.StudentResquest other) {
+      if (other == com.myNetty.proto.StudentResquest.getDefaultInstance()) return this;
       if (other.getAge() != 0) {
         setAge(other.getAge());
       }
@@ -373,21 +373,21 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
-    @Override
+    @java.lang.Override
     public final boolean isInitialized() {
       return true;
     }
 
-    @Override
+    @java.lang.Override
     public Builder mergeFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      StudentResquest parsedMessage = null;
+      com.myNetty.proto.StudentResquest parsedMessage = null;
       try {
         parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (StudentResquest) e.getUnfinishedMessage();
+        parsedMessage = (com.myNetty.proto.StudentResquest) e.getUnfinishedMessage();
         throw e.unwrapIOException();
       } finally {
         if (parsedMessage != null) {
@@ -426,13 +426,13 @@ private static final long serialVersionUID = 0L;
       onChanged();
       return this;
     }
-    @Override
+    @java.lang.Override
     public final Builder setUnknownFields(
         final com.google.protobuf.UnknownFieldSet unknownFields) {
       return super.setUnknownFields(unknownFields);
     }
 
-    @Override
+    @java.lang.Override
     public final Builder mergeUnknownFields(
         final com.google.protobuf.UnknownFieldSet unknownFields) {
       return super.mergeUnknownFields(unknownFields);
@@ -443,18 +443,18 @@ private static final long serialVersionUID = 0L;
   }
 
   // @@protoc_insertion_point(class_scope:com.myNetty.proto.StudentResquest)
-  private static final StudentResquest DEFAULT_INSTANCE;
+  private static final com.myNetty.proto.StudentResquest DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new StudentResquest();
+    DEFAULT_INSTANCE = new com.myNetty.proto.StudentResquest();
   }
 
-  public static StudentResquest getDefaultInstance() {
+  public static com.myNetty.proto.StudentResquest getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
   private static final com.google.protobuf.Parser<StudentResquest>
       PARSER = new com.google.protobuf.AbstractParser<StudentResquest>() {
-    @Override
+    @java.lang.Override
     public StudentResquest parsePartialFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -467,13 +467,13 @@ private static final long serialVersionUID = 0L;
     return PARSER;
   }
 
-  @Override
+  @java.lang.Override
   public com.google.protobuf.Parser<StudentResquest> getParserForType() {
     return PARSER;
   }
 
-  @Override
-  public StudentResquest getDefaultInstanceForType() {
+  @java.lang.Override
+  public com.myNetty.proto.StudentResquest getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 
